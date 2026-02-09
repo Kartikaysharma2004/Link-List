@@ -4,37 +4,70 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <title>Link List</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/cfcf372f7f.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-[#F9FAFE]">
-    <div class="container">
-        <img src="myimage.JPG" alt="Avtar" />
-        <div class="">
-            <h1 class="">Kartikay Sharma</h1>
-            <h3>"Passionate Frontend Developer | Bringing Websites to Life with Code"</h3>
+<body class="bg-[#F9FAFE] min-h-screen flex items-center justify-center">
+
+    <div class="bg-white w-full max-w-xl p-10 rounded-3xl border border-gray-200 flex flex-col items-center text-center gap-4 shadow-sm">
+
+        <!-- Avatar -->
+        <img src="myimage.JPG" alt="Avatar" class="w-36 h-36 rounded-full object-cover bg-[#FFF4E8]" />
+
+        <!-- Name -->
+        <h1 class="text-2xl font-semibold text-gray-900">
+            Kartikay Sharma
+        </h1>
+
+        <!-- Pills -->
+        <div class="flex gap-3 flex-wrap justify-center font-medium">
+            <span class="px-4 py-3 rounded-full text-sm
+                   bg-[#FFF1F3] text-[#FF445B]">
+                Frontend Developer
+            </span>
+            <span class="px-4 py-3 rounded-full text-sm
+                   bg-[#F4F5FA] text-gray-600">
+                Patti, IN
+            </span>
         </div>
-        <div class="links">
-            <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/Kartikaysharma2004/" target="_blank"><button type="button">GitHub</button></a>
-            <i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/kartikay-sharma2004/" target="_blank"><button
-                    type="button">LinkedIn</button></a>
-            <i class="fa-brands fa-telegram"></i>
-            <a href="https://t.me/kartikay2004" target="_blank"><button type="button">Telegram</button></a>
-            <i class="fa-regular fa-envelope"></i>
-            <a href="mailto:kartikaysharmaa2004@gmail.com" target="_blank"><button type="button">Gmail</button></a>
+
+        <!-- Bio -->
+        <p class="text-gray-500 text-sm leading-relaxed px-2">
+            Passionate Frontend Developer | Bringing websites to life
+            with clean code and smooth interactions.
+        </p>
+
+        <!-- Social Icons -->
+        <div class="flex gap-4 mt-4">
+            <a href="https://github.com/Kartikaysharma2004/" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full
+                bg-gray-100 text-gray-700 hover:bg-black hover:text-white transition">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/kartikay-sharma2004/" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full
+                bg-[#0A66C2] text-white hover:opacity-90 transition">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full
+                bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-400
+                text-white">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.youtube.com/" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full
+                bg-red-600 text-white hover:bg-red-700 transition">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
         </div>
+
     </div>
-    <div class="last">
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <a href="https://www.linkedin.com/in/kartikay-sharma2004/"><i class="fa-brands fa-linkedin"></i></a>
-        <h6>By Kartikay Sharma 2024</h6>
-    </div>
+
+</body>
+
 </body>
 
 </html>
