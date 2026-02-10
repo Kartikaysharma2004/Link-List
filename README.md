@@ -8,8 +8,11 @@ All Major Profile Links In A Single Website. It's Just Like Clone Of Link Tree. 
 <a href="https://html.com/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   </a>
-  </a> <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </a>
+  <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=lightblue" alt= "Netlify" />
   </a>
 
 ## 🚀 About Me
@@ -23,4 +26,3 @@ I'm a Passionate Frontend Developer with a flair for transforming creative visio
   <a href="https://www.hackerrank.com/profile/kartikaysharmaa1" target="blank"><img align="center" src="https://img.shields.io/badge/hackerrank-2EC866.svg?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
 <a href="https://peerlist.io/kartikaysharma" target="blank"><img align="center" src="https://github-readme-badge.peerlist.io/api/kartikay" alt="Peerlist"  /></a>
 </p>
-
