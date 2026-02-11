@@ -10,66 +10,80 @@
     <script src="https://kit.fontawesome.com/cfcf372f7f.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="min-h-screen flex items-center justify-center overflow-hidden" style="background: #F9FAFE; background: linear-gradient(332deg, rgba(249, 250, 254, 1) 0%, rgba(237, 221, 83, 1) 100%);">
+<body class="min-h-screen flex items-center justify-center"
+    style="background: #F9FAFE; background: linear-gradient(332deg, rgba(249, 250, 254, 1) 0%, rgba(237, 221, 83, 1) 100%);">
 
-    <div class="bg-white w-full max-w-xl py-10 max-sm:mx-2 rounded-3xl border border-gray-200 flex flex-col items-center text-center gap-4 shadow-sm">
+    <div class="grid lg:grid-cols-2 gap-10 max-sm:my-0 mx-2">
+        <div
+            class="bg-white max-w-xl py-10 rounded-3xl border border-gray-500 flex flex-col items-center text-center gap-4 shadow-sm">
 
-        <!-- Avatar -->
-        <img src="myimage.JPG" alt="Avatar" loading="lazy" class="w-36 h-36 rounded-full object-cover bg-[#FFF4E8]" />
+            <!-- Avatar -->
+            <img src="myimage.JPG" alt="Avatar" loading="lazy"
+                class="w-36 h-36 rounded-full object-cover bg-[#FFF4E8]" />
 
-        <!-- Name -->
-        <h1 class="sm:text-2xl text-xl font-semibold text-gray-900">
-            Kartikay Sharma</h1>
+            <!-- Name -->
+            <h1 class="sm:text-2xl text-xl font-semibold text-gray-900">
+                Kartikay Sharma</h1>
 
-        <!-- Pills -->
-        <div class="flex gap-3 flex-wrap justify-center font-medium">
-            <span class="px-4 py-3 rounded-full sm:text-sm text-xs bg-[#FFF1F3] text-[#FF445B]">
-                Frontend Developer
-            </span>
-            <span class="px-4 py-3 rounded-full sm:text-sm text-xs bg-[#F4F5FA] text-gray-600">
-                <a href="https://maps.app.goo.gl/nG5f4q6M2eabV2Sh7" target="_blank">
-                    Patti, IN
+            <!-- Pills -->
+            <div class="flex gap-3 flex-wrap justify-center font-medium">
+                <span class="px-4 py-3 rounded-full sm:text-sm text-xs bg-[#FFF1F3] text-[#FF445B]">
+                    Frontend Developer
+                </span>
+                <span class="px-4 py-3 rounded-full sm:text-sm text-xs bg-[#F4F5FA] text-gray-600">
+                    <a href="https://maps.app.goo.gl/nG5f4q6M2eabV2Sh7" target="_blank">
+                        Patti, IN
+                    </a>
+                </span>
+            </div>
+
+            <!-- Bio -->
+            <p class="text-gray-500 sm:text-sm text-xs leading-relaxed px-2">
+                Passionate Frontend Developer | Bringing websites to life
+                with clean code and smooth interactions.
+            </p>
+
+            <!-- Social Icons -->
+            <div class="flex gap-4 mt-4">
+                <a href="https://github.com/Kartikaysharma2004/" target="_blank" title="GitHub"
+                    class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full bg-black text-white hover:bg-gray-800 transition">
+                    <i class="fa-brands fa-github"></i>
                 </a>
-            </span>
+
+                <a href="https://www.linkedin.com/in/kartikay-sharma2004/" target="_blank" title="LinkedIn"
+                    class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full bg-[#0A66C2] text-white hover:opacity-90 transition">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://t.me/kartikay2004" target="_blank" title="Telegram"
+                    class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full bg-[#229ED9] text-white hover:bg-[#1C8BC1] transition">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+
+
+                <a href="mailto:kartikaysharmaa2004@gmail.com" title="Mail"
+                    class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full bg-[#EA4335] text-white hover:bg-[#D63B2F] transition">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+
+                <a href="https://dev.to/kartikaysharma2004" target="_blank" title="Dev"
+                    class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full text-white bg-gray-800 transition">
+                    <i class="fa-brands fa-dev"></i>
+                </a>
+            </div>
+
         </div>
 
-        <!-- Bio -->
-        <p class="text-gray-500 sm:text-sm text-xs leading-relaxed px-2">
-            Passionate Frontend Developer | Bringing websites to life
-            with clean code and smooth interactions.
-        </p>
 
-        <!-- Social Icons -->
-        <div class="flex gap-4 mt-4">
-            <a href="https://github.com/Kartikaysharma2004/" target="_blank" title="GitHub"
-                class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full bg-black text-white hover:bg-gray-800 transition">
-                <i class="fa-brands fa-github"></i>
-            </a>
-
-            <a href="https://www.linkedin.com/in/kartikay-sharma2004/" target="_blank" title="LinkedIn" class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full bg-[#0A66C2] text-white hover:opacity-90 transition">
-                <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-
-            <a href="https://t.me/kartikay2004" target="_blank" title="Telegram"
-                class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full bg-[#229ED9] text-white hover:bg-[#1C8BC1] transition">
-                <i class="fa-brands fa-telegram"></i>
-            </a>
-
-
-            <a href="mailto:kartikaysharmaa2004@gmail.com" title="Mail"
-                class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full bg-[#EA4335] text-white hover:bg-[#D63B2F] transition">
-                <i class="fa-regular fa-envelope"></i>
-            </a>
-
-            <a href="https://dev.to/kartikaysharma2004" target="_blank" title="Dev"
-                class="shadow-lg w-10 h-10 flex items-center justify-center rounded-full text-white bg-gray-800 transition">
-                <i class="fa-brands fa-dev"></i>
-            </a>
+        <div class="bg-white py-10 max-md:hidden rounded-3xl border border-gray-500 flex flex-col items-center text-center shadow-sm">
+            <div class="my-auto">
+                <h1 class="font-semibold capitalize text-lg text-gray-900">This Content is currently under development phase
+            </h1>
+            <p class="text-gray-500 text-sm leading-relaxed max-w-md">Currently working on something awesome. Stay tuned - this section will be live soon
+            </p>
+            </div>
         </div>
-
     </div>
-
-</body>
 
 </body>
 
